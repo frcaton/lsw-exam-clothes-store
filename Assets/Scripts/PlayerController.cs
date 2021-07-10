@@ -15,17 +15,30 @@ namespace ClothesStore {
         private Animator animator;
 
         private Vector3Int currentCell;
+        public Vector3Int CurrentCell {
+            get => currentCell;
+            set {
+                currentCell = value;
+                transform.position = GameManager.Instance.World.GetCellCenterWorld(currentCell);
+            }
+        }
+
+        private bool canMove = true;
+        public bool CanMove {
+            set => canMove = value;
+        }
 
         private bool isMoving = false;
+        public bool IsMoving => isMoving;
 
         private Vector3 movingToCell;
 
         private void Awake() {
             animator = GetComponent<Animator>();
+            CurrentCell = GameManager.Instance.World.WorldToCell(transform.position);
         }   
 
         private void Update() {
-
             if(isMoving) {            
                 transform.Translate((movingToCell - transform.position) * speed);
                 if(transform.position == movingToCell) {
@@ -38,10 +51,13 @@ namespace ClothesStore {
             }
 
             animator.SetBool("IsMoving", isMoving);
-
         }
 
         public void CheckForMovementInput() {
+            if(!canMove) {
+                return;
+            }
+
             float horizontalInput = Input.GetAxis("Horizontal");
             if(horizontalInput > 0) {                
                 TryMoveToCell(currentCell + Vector3Int.right);
@@ -59,8 +75,7 @@ namespace ClothesStore {
 
         private void TryMoveToCell(Vector3Int position) {
             Tile tile = GameManager.Instance.World.GetTile<Tile>(position);
-            if(tile.colliderType == Tile.ColliderType.None) {
-            //if(tile.GetTileData()
+            if(tile != null && tile.colliderType == Tile.ColliderType.None) {
                 isMoving = true;
                 movingToCell = GameManager.Instance.World.GetCellCenterWorld(position);
             } else {
