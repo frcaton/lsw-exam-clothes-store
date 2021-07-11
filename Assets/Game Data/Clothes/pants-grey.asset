@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
+  m_Name: pants-grey
+  m_EditorClassIdentifier: 
+  price: 130
+  type: {fileID: 11400000, guid: 16d4ff964eb70a015976169189976cfc, type: 2}
+  color: 7
+  sprite: {fileID: 4365873776659892937, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}

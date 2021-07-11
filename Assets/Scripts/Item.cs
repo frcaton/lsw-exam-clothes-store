@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ClothesStore {
     
-    public class Item : MonoBehaviour {
+    public class Item : ScriptableObject {
 
         [SerializeField]
         private int price;

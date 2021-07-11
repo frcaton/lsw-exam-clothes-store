@@ -26,7 +26,7 @@ namespace ClothesStore {
         /// <summary>
         /// Adds an amount to the slot
         /// </summary>
-        /// <returns>Returns the amount of the item in the slot after the operation</returns>
+        /// <returns>The amount of the item in the slot after the operation</returns>
         public int Add(int amount) {
             return Amount += amount;
         }
@@ -34,7 +34,7 @@ namespace ClothesStore {
         /// <summary>
         /// Removes an amount from the slot
         /// </summary>
-        /// <returns>Returns the amount of the item in the slot after the operation</returns>
+        /// <returns>The amount of the item in the slot after the operation</returns>
         public int Remove(int amount) {
             return Amount -= amount;
         }

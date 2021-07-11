@@ -10,145 +10,145 @@ TextureImporter:
     second: character_1
   - first:
       213: -8401692288953904933
-    second: character_2
+    second: pants-black
   - first:
       213: 7888922196035610388
-    second: character_3
+    second: shoes-black
   - first:
       213: -8090365562718305141
-    second: character_4
+    second: short-t-shirt-red
   - first:
       213: 3445332486847661990
-    second: character_5
+    second: long-t-shirt-red
   - first:
       213: 7456334905099763947
-    second: character_6
+    second: medium-t-shirt-red
   - first:
       213: 5377859178988851676
-    second: character_7
+    second: t-shirt-with-vest-red
   - first:
       213: -4124168217499134943
-    second: character_8
+    second: short-t-shirt-blue
   - first:
       213: 4620578802948863353
-    second: character_9
+    second: long-t-shirt-blue
   - first:
       213: -6835189599539173722
-    second: character_10
+    second: medium-t-shirt-blue
   - first:
       213: 679739729869728943
-    second: character_11
+    second: t-shirt-with-vest-blue
   - first:
       213: 5248155131499935147
-    second: character_12
+    second: short-t-shirt-purple
   - first:
       213: -3303779423006393323
-    second: character_13
+    second: long-t-shirt-purple
   - first:
       213: -790699523677361007
-    second: character_14
+    second: medium-t-shirt-purple
   - first:
       213: 8470420716495695676
-    second: character_15
+    second: t-shirt-with-vest-purple
   - first:
       213: -3181128867261425065
-    second: character_18
+    second: pants-brown
   - first:
       213: -4888305619323244325
-    second: character_19
+    second: shoes-brown
   - first:
       213: 1822710792970894325
-    second: character_20
+    second: vintage-shirt-red
   - first:
       213: -4656049468798845499
-    second: character_21
+    second: t-shirt-brown-red
   - first:
       213: 6237780861798913854
-    second: character_22
+    second: t-shirt-white-red
   - first:
       213: -9156188058010517731
-    second: character_23
+    second: t-shirt-beige-red
   - first:
       213: -4445699719359273135
-    second: character_24
+    second: vintage-shirt-blue
   - first:
       213: 1892806461834874077
-    second: character_25
+    second: t-shirt-brown-blue
   - first:
       213: -8627026541424588849
-    second: character_26
+    second: t-shirt-white-blue
   - first:
       213: -6780520195603233165
-    second: character_27
+    second: t-shirt-beige-blue
   - first:
       213: -4060318028669273776
-    second: character_28
+    second: vintage-shirt-purple
   - first:
       213: -6092953325292582070
-    second: character_29
+    second: t-shirt-brown-purple
   - first:
       213: 8340156370037202746
-    second: character_30
+    second: t-shirt-white-purple
   - first:
       213: -5163677950195982287
-    second: character_31
+    second: t-shirt-beige-purple
   - first:
       213: 4365873776659892937
-    second: character_34
+    second: pants-grey
   - first:
       213: -1038918931832879880
-    second: character_35
+    second: shoes-grey
   - first:
       213: 2690600881683387669
-    second: character_36
+    second: long-dress-red
   - first:
       213: 6634202828824015816
-    second: character_37
+    second: short-dress-red
   - first:
       213: -5008138227279614530
-    second: character_38
+    second: long-top-red
   - first:
       213: 122268285079091143
-    second: character_39
+    second: short-top-red
   - first:
       213: 7113705111667027848
-    second: character_40
+    second: long-dress-blue
   - first:
       213: -6692555241838817836
-    second: character_41
+    second: short-dress-blue
   - first:
       213: 2180825371451227870
-    second: character_42
+    second: long-top-blue
   - first:
       213: -4702585941336802017
-    second: character_43
+    second: short-top-blue
   - first:
       213: -389262940572705114
-    second: character_44
+    second: long-dress-purple
   - first:
       213: -9078226021229508275
-    second: character_45
+    second: short-dress-pruple
   - first:
       213: 7805661433064171900
-    second: character_46
+    second: long-top-purple
   - first:
       213: -6068918389402846573
-    second: character_47
+    second: short-top-purple
   - first:
       213: 904094962941711261
-    second: character_50
+    second: pants-beige
   - first:
       213: -8258607753064836120
-    second: character_51
+    second: shoes-beige
   - first:
       213: -7326877051031357324
-    second: character_52
+    second: shirt-red
   - first:
       213: -3061340027595065751
-    second: character_53
+    second: shirt-grey-sleeves-red
   - first:
       213: 8888318505984086984
-    second: character_54
+    second: shirt-multicolor-red-blue
   - first:
       213: 5761871557105572261
     second: character_55
@@ -172,142 +172,142 @@ TextureImporter:
     second: character_61
   - first:
       213: 2982690796557775626
-    second: character_62
+    second: shirt-multicolor-purple-white
   - first:
       213: 431847133859263438
     second: character_63
   - first:
       213: -2355267295002078251
-    second: character_80
+    second: pants-red
   - first:
       213: -3304375855044731091
-    second: character_81
+    second: shoes-red
   - first:
       213: 2574652341068442800
-    second: character_82
+    second: short-t-shirt-green
   - first:
       213: -3296693499264004087
-    second: character_83
+    second: long-t-shirt-green
   - first:
       213: -6226961327165514972
-    second: character_84
+    second: medium-t-shirt-green
   - first:
       213: -3803853919353334290
-    second: character_85
+    second: t-shirt-with-vest-green
   - first:
       213: -718592644240787739
-    second: character_86
+    second: short-t-shirt-brown
   - first:
       213: 6798566432169114445
-    second: character_87
+    second: long-t-shirt-brown
   - first:
       213: -7093095247231450966
-    second: character_88
+    second: medium-t-shirt-brown
   - first:
       213: 5112969330318509482
-    second: character_89
+    second: t-shirt-with-vest-brown
   - first:
       213: 5061345089324614376
-    second: character_90
+    second: short-t-shirt-black
   - first:
       213: 420142021748045261
-    second: character_91
+    second: long-t-shirt-black
   - first:
       213: -2542334083031471006
-    second: character_92
+    second: medium-t-shirt-black
   - first:
       213: 904068547779590336
-    second: character_93
+    second: t-shirt-with-vest-black
   - first:
       213: 11955788474566078
-    second: character_96
+    second: pants-blue
   - first:
       213: 6158712688616272038
-    second: character_97
+    second: shoes-blue
   - first:
       213: -9042016594970914977
-    second: character_98
+    second: vintage-shirt-green
   - first:
       213: 5235753169355782140
-    second: character_99
+    second: t-shirt-brown-green
   - first:
       213: -4202992730111920862
-    second: character_100
+    second: t-shirt-white-green
   - first:
       213: -1716827284261452374
-    second: character_101
+    second: t-shirt-beige-green
   - first:
       213: 4075521811331525174
-    second: character_102
+    second: vintage-shirt-brown
   - first:
       213: 1046398277257759507
-    second: character_103
+    second: t-shirt-brown-brown
   - first:
       213: 3704982205581683867
-    second: character_104
+    second: t-shirt-white-brown
   - first:
       213: 4027084538134736514
-    second: character_105
+    second: t-shirt-beige-brown
   - first:
       213: 8819621153007656973
-    second: character_106
+    second: vintage-shirt-black
   - first:
       213: -4476149070206672133
-    second: character_107
+    second: t-shirt-brown-black
   - first:
       213: -2177081409302053748
-    second: character_108
+    second: t-shirt-white-black
   - first:
       213: -1550047302062183234
-    second: character_109
+    second: t-shirt-beige-black
   - first:
       213: 2590892373671537729
-    second: character_112
+    second: pants-purple
   - first:
       213: -5985807558615883927
-    second: character_113
+    second: shoes-purple
   - first:
       213: 1383036689189558754
-    second: character_114
+    second: long-dress-green
   - first:
       213: -3736570100919895525
-    second: character_115
+    second: short-dress-green
   - first:
       213: 3647492289325987427
-    second: character_116
+    second: long-top-green
   - first:
       213: -2501922731656196001
-    second: character_117
+    second: short-top-green
   - first:
       213: -239163342399516566
-    second: character_118
+    second: long-dress-brown
   - first:
       213: -5122776840341224524
-    second: character_119
+    second: short-dress-brown
   - first:
       213: 4895647635923213618
-    second: character_120
+    second: long-top-brown
   - first:
       213: 977738448269427948
-    second: character_121
+    second: short-top-brown
   - first:
       213: -8035563447623364066
-    second: character_122
+    second: long-dress-black
   - first:
       213: -5640833563671026061
-    second: character_123
+    second: short-dress-black
   - first:
       213: -1433792697318861860
-    second: character_124
+    second: long-top-black
   - first:
       213: 1188208026533624794
-    second: character_125
+    second: short-top-black
   - first:
       213: -809195621146354303
-    second: character_128
+    second: pants-green
   - first:
       213: -6232118633188285401
-    second: character_129
+    second: shoes-green
   - first:
       213: 4279911756941751889
     second: character_130
@@ -346,16 +346,16 @@ TextureImporter:
     second: character_141
   - first:
       213: 5812308379505140619
-    second: character_166
+    second: hat-red
   - first:
       213: 8057217079922114036
-    second: character_167
+    second: hat-blue
   - first:
       213: 8215653452318138431
-    second: character_168
+    second: hat-grey
   - first:
       213: 5562634217301573751
-    second: character_169
+    second: hat-green
   - first:
       213: 6167071470516247665
     second: character_16
@@ -368,6 +368,9 @@ TextureImporter:
   - first:
       213: 9134867320498260058
     second: character_33
+  - first:
+      213: 794369475904173520
+    second: shirt-multicolor-red-blu
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -499,7 +502,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_2
+      name: pants-black
       rect:
         serializedVersion: 2
         x: 52
@@ -520,7 +523,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_3
+      name: shoes-black
       rect:
         serializedVersion: 2
         x: 69
@@ -541,7 +544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_4
+      name: short-t-shirt-red
       rect:
         serializedVersion: 2
         x: 103
@@ -562,7 +565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_5
+      name: long-t-shirt-red
       rect:
         serializedVersion: 2
         x: 120
@@ -583,7 +586,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_6
+      name: medium-t-shirt-red
       rect:
         serializedVersion: 2
         x: 137
@@ -604,7 +607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_7
+      name: t-shirt-with-vest-red
       rect:
         serializedVersion: 2
         x: 154
@@ -625,7 +628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_8
+      name: short-t-shirt-blue
       rect:
         serializedVersion: 2
         x: 171
@@ -646,7 +649,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_9
+      name: long-t-shirt-blue
       rect:
         serializedVersion: 2
         x: 188
@@ -667,7 +670,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_10
+      name: medium-t-shirt-blue
       rect:
         serializedVersion: 2
         x: 205
@@ -688,7 +691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_11
+      name: t-shirt-with-vest-blue
       rect:
         serializedVersion: 2
         x: 222
@@ -709,7 +712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_12
+      name: short-t-shirt-purple
       rect:
         serializedVersion: 2
         x: 239
@@ -730,7 +733,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_13
+      name: long-t-shirt-purple
       rect:
         serializedVersion: 2
         x: 256
@@ -751,7 +754,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_14
+      name: medium-t-shirt-purple
       rect:
         serializedVersion: 2
         x: 273
@@ -772,7 +775,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_15
+      name: t-shirt-with-vest-purple
       rect:
         serializedVersion: 2
         x: 290
@@ -793,7 +796,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_18
+      name: pants-brown
       rect:
         serializedVersion: 2
         x: 52
@@ -814,7 +817,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_19
+      name: shoes-brown
       rect:
         serializedVersion: 2
         x: 69
@@ -835,7 +838,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_20
+      name: vintage-shirt-red
       rect:
         serializedVersion: 2
         x: 103
@@ -856,7 +859,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_21
+      name: t-shirt-brown-red
       rect:
         serializedVersion: 2
         x: 120
@@ -877,7 +880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_22
+      name: t-shirt-white-red
       rect:
         serializedVersion: 2
         x: 137
@@ -898,7 +901,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_23
+      name: t-shirt-beige-red
       rect:
         serializedVersion: 2
         x: 154
@@ -919,7 +922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_24
+      name: vintage-shirt-blue
       rect:
         serializedVersion: 2
         x: 171
@@ -940,7 +943,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_25
+      name: t-shirt-brown-blue
       rect:
         serializedVersion: 2
         x: 188
@@ -961,7 +964,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_26
+      name: t-shirt-white-blue
       rect:
         serializedVersion: 2
         x: 205
@@ -982,7 +985,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_27
+      name: t-shirt-beige-blue
       rect:
         serializedVersion: 2
         x: 222
@@ -1003,7 +1006,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_28
+      name: vintage-shirt-purple
       rect:
         serializedVersion: 2
         x: 239
@@ -1024,7 +1027,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_29
+      name: t-shirt-brown-purple
       rect:
         serializedVersion: 2
         x: 256
@@ -1045,7 +1048,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_30
+      name: t-shirt-white-purple
       rect:
         serializedVersion: 2
         x: 273
@@ -1066,7 +1069,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_31
+      name: t-shirt-beige-purple
       rect:
         serializedVersion: 2
         x: 290
@@ -1087,7 +1090,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_34
+      name: pants-grey
       rect:
         serializedVersion: 2
         x: 52
@@ -1108,7 +1111,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_35
+      name: shoes-grey
       rect:
         serializedVersion: 2
         x: 69
@@ -1129,7 +1132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_36
+      name: long-dress-red
       rect:
         serializedVersion: 2
         x: 103
@@ -1150,7 +1153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_37
+      name: short-dress-red
       rect:
         serializedVersion: 2
         x: 120
@@ -1171,7 +1174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_38
+      name: long-top-red
       rect:
         serializedVersion: 2
         x: 137
@@ -1192,7 +1195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_39
+      name: short-top-red
       rect:
         serializedVersion: 2
         x: 154
@@ -1213,7 +1216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_40
+      name: long-dress-blue
       rect:
         serializedVersion: 2
         x: 171
@@ -1234,7 +1237,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_41
+      name: short-dress-blue
       rect:
         serializedVersion: 2
         x: 188
@@ -1255,7 +1258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_42
+      name: long-top-blue
       rect:
         serializedVersion: 2
         x: 205
@@ -1276,7 +1279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_43
+      name: short-top-blue
       rect:
         serializedVersion: 2
         x: 222
@@ -1297,7 +1300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_44
+      name: long-dress-purple
       rect:
         serializedVersion: 2
         x: 239
@@ -1318,7 +1321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_45
+      name: short-dress-pruple
       rect:
         serializedVersion: 2
         x: 256
@@ -1339,7 +1342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_46
+      name: long-top-purple
       rect:
         serializedVersion: 2
         x: 273
@@ -1360,7 +1363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_47
+      name: short-top-purple
       rect:
         serializedVersion: 2
         x: 290
@@ -1381,7 +1384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_50
+      name: pants-beige
       rect:
         serializedVersion: 2
         x: 52
@@ -1402,7 +1405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_51
+      name: shoes-beige
       rect:
         serializedVersion: 2
         x: 69
@@ -1423,7 +1426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_52
+      name: shirt-red
       rect:
         serializedVersion: 2
         x: 103
@@ -1444,7 +1447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_53
+      name: shirt-grey-sleeves-red
       rect:
         serializedVersion: 2
         x: 120
@@ -1465,7 +1468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_54
+      name: shirt-multicolor-red-blue
       rect:
         serializedVersion: 2
         x: 137
@@ -1486,154 +1489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_55
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a954ba47a746ff40800000000000000
-      internalID: 5761871557105572261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_56
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e210c1fc8a278230800000000000000
-      internalID: 3640925608592020196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_57
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4171cd4d2005ad0800000000000000
-      internalID: -2715667462055586634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_58
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 808c9ea5cb3cef3e0800000000000000
-      internalID: -2017960369268865016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_59
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42718fe85f2718670800000000000000
-      internalID: 8539232767462348580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_60
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b14afa382d3eeeb0800000000000000
-      internalID: -4688742919048642120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_61
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 141ffe752419f8b40800000000000000
-      internalID: 5444730188643430721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_62
+      name: shirt-multicolor-purple-white
       rect:
         serializedVersion: 2
         x: 273
@@ -1654,28 +1510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_63
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec3b3f22eaa3ef500800000000000000
-      internalID: 431847133859263438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_80
+      name: pants-red
       rect:
         serializedVersion: 2
         x: 52
@@ -1696,7 +1531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_81
+      name: shoes-red
       rect:
         serializedVersion: 2
         x: 69
@@ -1717,7 +1552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_82
+      name: short-t-shirt-green
       rect:
         serializedVersion: 2
         x: 103
@@ -1738,7 +1573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_83
+      name: long-t-shirt-green
       rect:
         serializedVersion: 2
         x: 120
@@ -1759,7 +1594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_84
+      name: medium-t-shirt-green
       rect:
         serializedVersion: 2
         x: 137
@@ -1780,7 +1615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_85
+      name: t-shirt-with-vest-green
       rect:
         serializedVersion: 2
         x: 154
@@ -1801,7 +1636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_86
+      name: short-t-shirt-brown
       rect:
         serializedVersion: 2
         x: 171
@@ -1822,7 +1657,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_87
+      name: long-t-shirt-brown
       rect:
         serializedVersion: 2
         x: 188
@@ -1843,7 +1678,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_88
+      name: medium-t-shirt-brown
       rect:
         serializedVersion: 2
         x: 205
@@ -1864,7 +1699,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_89
+      name: t-shirt-with-vest-brown
       rect:
         serializedVersion: 2
         x: 222
@@ -1885,7 +1720,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_90
+      name: short-t-shirt-black
       rect:
         serializedVersion: 2
         x: 239
@@ -1906,7 +1741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_91
+      name: long-t-shirt-black
       rect:
         serializedVersion: 2
         x: 256
@@ -1927,7 +1762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_92
+      name: medium-t-shirt-black
       rect:
         serializedVersion: 2
         x: 273
@@ -1948,7 +1783,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_93
+      name: t-shirt-with-vest-black
       rect:
         serializedVersion: 2
         x: 290
@@ -1969,7 +1804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_96
+      name: pants-blue
       rect:
         serializedVersion: 2
         x: 52
@@ -1990,7 +1825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_97
+      name: shoes-blue
       rect:
         serializedVersion: 2
         x: 69
@@ -2011,7 +1846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_98
+      name: vintage-shirt-green
       rect:
         serializedVersion: 2
         x: 103
@@ -2032,7 +1867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_99
+      name: t-shirt-brown-green
       rect:
         serializedVersion: 2
         x: 120
@@ -2053,7 +1888,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_100
+      name: t-shirt-white-green
       rect:
         serializedVersion: 2
         x: 137
@@ -2074,7 +1909,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_101
+      name: t-shirt-beige-green
       rect:
         serializedVersion: 2
         x: 154
@@ -2095,7 +1930,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_102
+      name: vintage-shirt-brown
       rect:
         serializedVersion: 2
         x: 171
@@ -2116,7 +1951,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_103
+      name: t-shirt-brown-brown
       rect:
         serializedVersion: 2
         x: 188
@@ -2137,7 +1972,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_104
+      name: t-shirt-white-brown
       rect:
         serializedVersion: 2
         x: 205
@@ -2158,7 +1993,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_105
+      name: t-shirt-beige-brown
       rect:
         serializedVersion: 2
         x: 222
@@ -2179,7 +2014,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_106
+      name: vintage-shirt-black
       rect:
         serializedVersion: 2
         x: 239
@@ -2200,7 +2035,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_107
+      name: t-shirt-brown-black
       rect:
         serializedVersion: 2
         x: 256
@@ -2221,7 +2056,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_108
+      name: t-shirt-white-black
       rect:
         serializedVersion: 2
         x: 273
@@ -2242,7 +2077,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_109
+      name: t-shirt-beige-black
       rect:
         serializedVersion: 2
         x: 290
@@ -2263,7 +2098,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_112
+      name: pants-purple
       rect:
         serializedVersion: 2
         x: 52
@@ -2284,7 +2119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_113
+      name: shoes-purple
       rect:
         serializedVersion: 2
         x: 69
@@ -2305,7 +2140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_114
+      name: long-dress-green
       rect:
         serializedVersion: 2
         x: 103
@@ -2326,7 +2161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_115
+      name: short-dress-green
       rect:
         serializedVersion: 2
         x: 120
@@ -2347,7 +2182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_116
+      name: long-top-green
       rect:
         serializedVersion: 2
         x: 137
@@ -2368,7 +2203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_117
+      name: short-top-green
       rect:
         serializedVersion: 2
         x: 154
@@ -2389,7 +2224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_118
+      name: long-dress-brown
       rect:
         serializedVersion: 2
         x: 171
@@ -2410,7 +2245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_119
+      name: short-dress-brown
       rect:
         serializedVersion: 2
         x: 188
@@ -2431,7 +2266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_120
+      name: long-top-brown
       rect:
         serializedVersion: 2
         x: 205
@@ -2452,7 +2287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_121
+      name: short-top-brown
       rect:
         serializedVersion: 2
         x: 222
@@ -2473,7 +2308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_122
+      name: long-dress-black
       rect:
         serializedVersion: 2
         x: 239
@@ -2494,7 +2329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_123
+      name: short-dress-black
       rect:
         serializedVersion: 2
         x: 256
@@ -2515,7 +2350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_124
+      name: long-top-black
       rect:
         serializedVersion: 2
         x: 273
@@ -2536,7 +2371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_125
+      name: short-top-black
       rect:
         serializedVersion: 2
         x: 290
@@ -2557,7 +2392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_128
+      name: pants-green
       rect:
         serializedVersion: 2
         x: 52
@@ -2578,7 +2413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_129
+      name: shoes-green
       rect:
         serializedVersion: 2
         x: 69
@@ -2594,132 +2429,6 @@ TextureImporter:
       bones: []
       spriteID: 72428be4f111389a0800000000000000
       internalID: -6232118633188285401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_130
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 156f786211d456b30800000000000000
-      internalID: 4279911756941751889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_131
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bc70549516408aa0800000000000000
-      internalID: -6160847231746278218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_132
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 653da4309133f8dc0800000000000000
-      internalID: -3634630191742266538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_133
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d87af2c02dc17680800000000000000
-      internalID: -8758994259665061674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_134
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb85c9b5fa43e0d80800000000000000
-      internalID: -8282624736926869316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_135
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81452cb5edbe8e7a0800000000000000
-      internalID: -6347564334523984872
       vertices: []
       indices: 
       edges: []
@@ -2767,48 +2476,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_138
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1162a42cb861ed1e0800000000000000
-      internalID: -2171273180830095855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_139
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 51
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8d0cc560835127b0800000000000000
-      internalID: -5250823879608496758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: character_140
       rect:
         serializedVersion: 2
@@ -2851,7 +2518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_166
+      name: hat-red
       rect:
         serializedVersion: 2
         x: 103
@@ -2872,7 +2539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_167
+      name: hat-blue
       rect:
         serializedVersion: 2
         x: 120
@@ -2893,7 +2560,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_168
+      name: hat-grey
       rect:
         serializedVersion: 2
         x: 137
@@ -2914,7 +2581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_169
+      name: hat-green
       rect:
         serializedVersion: 2
         x: 154
@@ -2943,7 +2610,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2964,7 +2631,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2985,7 +2652,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3006,7 +2673,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3014,6 +2681,27 @@ TextureImporter:
       bones: []
       spriteID: a588f9ced6195ce70800000000000000
       internalID: 9134867320498260058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shirt-multicolor-red-blu
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d57eaf54da260b00800000000000000
+      internalID: 794369475904173520
       vertices: []
       indices: 
       edges: []

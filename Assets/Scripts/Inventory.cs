@@ -18,7 +18,7 @@ namespace ClothesStore {
         /// <summary>
         /// Adds an amount of items to the inventory
         /// </summary>
-        /// <returns>Returns the amount of the item in the inventory after the operation</returns>
+        /// <returns>The amount of the item in the inventory after the operation</returns>
         public int Add(Item item, int amount) {
             InventorySlot slot = GetSlot(item);
             if(slot == null) {
@@ -32,7 +32,7 @@ namespace ClothesStore {
         /// <summary>
         /// Removes an amount of items from the inventory
         /// </summary>
-        /// <returns>Returns the amount of the item in the inventory after the operation</returns>
+        /// <returns>The amount of the item in the inventory after the operation</returns>
         public int Remove(Item item, int amount) {
             InventorySlot slot = GetSlot(item);
             if(slot == null) {

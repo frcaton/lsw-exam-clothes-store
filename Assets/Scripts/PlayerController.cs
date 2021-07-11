@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -7,6 +9,9 @@ namespace ClothesStore {
 
         [SerializeField]
         private float speed = 0.1f;
+
+        [SerializeField]
+        private List<ClothesRenderer> clothesRenderers;
 
         [SerializeField]
         private Inventory inventory;
@@ -81,6 +86,11 @@ namespace ClothesStore {
             } else {
                 //TODO play sound
             }
+        }
+
+        public void Equip(Clothes clothes) {
+            ClothesRenderer renderer = clothesRenderers.Find(renderer => renderer.BodyPart == clothes.BodyPart);
+            renderer.EquippedClothes = clothes;
         }
 
     }

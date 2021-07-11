@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 7117352459926733294
     second: saleswoman
+  - first:
+      213: -4594815229075491804
+    second: short-hair-brown
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,7 +105,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -110,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: ee18f2b5a5ae5c260800000000000000
       internalID: 7117352459926733294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: short-hair-brown
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424766eb4efeb30c0800000000000000
+      internalID: -4594815229075491804
       vertices: []
       indices: 
       edges: []
