@@ -151,31 +151,31 @@ TextureImporter:
     second: shirt-multicolor-red-blue
   - first:
       213: 5761871557105572261
-    second: character_55
+    second: hat-blue-icn
   - first:
       213: 3640925608592020196
-    second: character_56
+    second: hat-purple-icn
   - first:
       213: -2715667462055586634
-    second: character_57
+    second: hat-green-icn
   - first:
       213: -2017960369268865016
-    second: character_58
+    second: pants-black-icn
   - first:
       213: 8539232767462348580
-    second: character_59
+    second: shoes-black-icn
   - first:
       213: -4688742919048642120
-    second: character_60
+    second: pants-brown-icn
   - first:
       213: 5444730188643430721
-    second: character_61
+    second: shoes-brown-cn
   - first:
       213: 2982690796557775626
     second: shirt-multicolor-purple-white
   - first:
       213: 431847133859263438
-    second: character_63
+    second: pants-grey-icn
   - first:
       213: -2355267295002078251
     second: pants-red
@@ -352,7 +352,7 @@ TextureImporter:
     second: hat-blue
   - first:
       213: 8215653452318138431
-    second: hat-grey
+    second: hat-purple
   - first:
       213: 5562634217301573751
     second: hat-green
@@ -371,6 +371,42 @@ TextureImporter:
   - first:
       213: 794369475904173520
     second: shirt-multicolor-red-blu
+  - first:
+      213: -4081081572662631122
+    second: hat-red-icn
+  - first:
+      213: -959574412211295191
+    second: shoes-grey-icn
+  - first:
+      213: -5543839834667190789
+    second: pants-beige-icn
+  - first:
+      213: -5898902091405407313
+    second: shoes-beige-icn
+  - first:
+      213: 963302129002613889
+    second: pants-red-icn
+  - first:
+      213: 4690120233752323860
+    second: shoes-red-icn
+  - first:
+      213: 4296828812164382558
+    second: pants-blue-icn
+  - first:
+      213: 7274838496166343488
+    second: shoes-blue-icn
+  - first:
+      213: -8506932439865520012
+    second: pants-purple-icn
+  - first:
+      213: 5775892167768770587
+    second: shoes-purple-icn
+  - first:
+      213: -2431439944167368855
+    second: shoes-green-icn
+  - first:
+      213: 1826643513625554200
+    second: pants-green-icn
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -2560,7 +2596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hat-grey
+      name: hat-purple
       rect:
         serializedVersion: 2
         x: 137
@@ -2702,6 +2738,426 @@ TextureImporter:
       bones: []
       spriteID: 0d57eaf54da260b00800000000000000
       internalID: 794369475904173520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat-red-icn
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e252d02aee51d57c0800000000000000
+      internalID: -4081081572662631122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat-blue-icn
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 6
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a954ba47a746ff40800000000000000
+      internalID: 5761871557105572261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat-purple-icn
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e210c1fc8a278230800000000000000
+      internalID: 3640925608592020196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat-green-icn
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 6
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4171cd4d2005ad0800000000000000
+      internalID: -2715667462055586634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-black-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 182
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808c9ea5cb3cef3e0800000000000000
+      internalID: -2017960369268865016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-black-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 182
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42718fe85f2718670800000000000000
+      internalID: 8539232767462348580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-brown-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 165
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b14afa382d3eeeb0800000000000000
+      internalID: -4688742919048642120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-brown-cn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 165
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141ffe752419f8b40800000000000000
+      internalID: 5444730188643430721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-grey-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3b3f22eaa3ef500800000000000000
+      internalID: 431847133859263438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-grey-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c6798f728eea2f0800000000000000
+      internalID: -959574412211295191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-beige-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5700bfa035013b0800000000000000
+      internalID: -5543839834667190789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-beige-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabc8f43dc3e22ea0800000000000000
+      internalID: -5898902091405407313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-red-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 97
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c049abe265e5d00800000000000000
+      internalID: 963302129002613889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-red-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 97
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417eda6d087a61140800000000000000
+      internalID: 4690120233752323860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-blue-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 80
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fb8b10a0761ab30800000000000000
+      internalID: 4296828812164382558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-blue-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 80
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f45a811b65f460800000000000000
+      internalID: 7274838496166343488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-purple-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4709191840e41f980800000000000000
+      internalID: -8506932439865520012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-purple-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1881d81357182050800000000000000
+      internalID: 5775892167768770587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoes-green-icn
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 46
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967553bc04ac14ed0800000000000000
+      internalID: -2431439944167368855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants-green-icn
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 46
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d2ce0099a895910800000000000000
+      internalID: 1826643513625554200
       vertices: []
       indices: 
       edges: []

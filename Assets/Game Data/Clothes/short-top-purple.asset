@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
-  m_Name: hat-grey
+  m_Name: short-top-purple
   m_EditorClassIdentifier: 
-  price: 50
-  type: {fileID: 11400000, guid: 6c3494c6c4f78f07889a058144d19023, type: 2}
-  color: 7
-  sprite: {fileID: 8215653452318138431, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  icon: {fileID: -6068918389402846573, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  price: 40
+  type: {fileID: 11400000, guid: 7921838a99395d9c7869375d1e99f42e, type: 2}
+  color: 2
+  sprite: {fileID: -6068918389402846573, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}

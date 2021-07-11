@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
   m_Name: pants-red
   m_EditorClassIdentifier: 
+  icon: {fileID: 963302129002613889, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
   price: 130
   type: {fileID: 11400000, guid: 16d4ff964eb70a015976169189976cfc, type: 2}
   color: 0

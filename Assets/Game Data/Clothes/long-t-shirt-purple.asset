@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
-  m_Name: t-shirt-with-vest-pruple
+  m_Name: long-t-shirt-purple
   m_EditorClassIdentifier: 
-  price: 110
-  type: {fileID: 11400000, guid: 9895cb199bb92a85391877cc5da12f10, type: 2}
+  icon: {fileID: -3303779423006393323, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  price: 80
+  type: {fileID: 11400000, guid: 4d11002fba5cde765bb511f469f1ecbf, type: 2}
   color: 2
-  sprite: {fileID: 8470420716495695676, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  sprite: {fileID: -3303779423006393323, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}

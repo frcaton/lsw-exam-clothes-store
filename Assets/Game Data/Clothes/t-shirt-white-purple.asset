@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
-  m_Name: short-t-shirt-pruple
+  m_Name: t-shirt-white-purple
   m_EditorClassIdentifier: 
-  price: 60
-  type: {fileID: 11400000, guid: f54033138f8dafd64901237438bba9d9, type: 2}
+  icon: {fileID: 8340156370037202746, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  price: 100
+  type: {fileID: 11400000, guid: 0d142956a6836c2c8b276c700941d6e0, type: 2}
   color: 2
-  sprite: {fileID: 5248155131499935147, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  sprite: {fileID: 8340156370037202746, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}

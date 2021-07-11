@@ -46,7 +46,8 @@ namespace ClothesStore {
         [SerializeField]
         private List<Clothes> stock;
 
-        private Dictionary<ClothesType, List<Clothes>> clothesGroupedByType = new Dictionary<ClothesType, List<Clothes>>();
+        private Dictionary<ClothesType, List<Clothes>> stockGroupedByType = new Dictionary<ClothesType, List<Clothes>>();
+        private Dictionary<ClothesType, List<Clothes>> inventoryGroupedByType = new Dictionary<ClothesType, List<Clothes>>();
 
         private BodyPart selectedCategory;
 
@@ -61,22 +62,31 @@ namespace ClothesStore {
         }
 
         private void Awake() {
+            stock.ForEach(clothes => {
+                List<Clothes> clothesOfType;
+                if(stockGroupedByType.ContainsKey(clothes.Type)) {
+                    clothesOfType = stockGroupedByType[clothes.Type];
+                } else {
+                    clothesOfType = new List<Clothes>();
+                    stockGroupedByType.Add(clothes.Type, clothesOfType);
+                }
+                clothesOfType.Add(clothes);
+            });
+
+            ClothesListItem item;
+            for (int i = 0; i < listParent.childCount; i++) {
+                item = listParent.GetChild(i).GetComponent<ClothesListItem>();
+                item.OnClothesSelectionChanged = OnClothesSelectionChanged;
+                item.Group = itemsTglGrp;
+            }
+        }
+
+        private void Start() {
             categoryBtns.ForEach(categoryBtn => {
                 categoryBtn.OnSelected = OnCategorySelected;
                 if(categoryBtn.IsSelected) {
                     selectedCategory = categoryBtn.BodyPart;
                 }
-            });
-
-            stock.ForEach(clothes => {
-                List<Clothes> clothesOfType;
-                if(clothesGroupedByType.ContainsKey(clothes.Type)) {
-                    clothesOfType = clothesGroupedByType[clothes.Type];
-                } else {
-                    clothesOfType = new List<Clothes>();
-                    clothesGroupedByType.Add(clothes.Type, clothesOfType);
-                }
-                clothesOfType.Add(clothes);
             });
         }
 
@@ -84,7 +94,7 @@ namespace ClothesStore {
             this.buy = buy;
             gameObject.SetActive(true);
             ClearSelection();
-            categoryBtns[0].IsSelected = true;
+
             if(buy) {
                 titleTxt.text = buyTitle;
                 buyBtn.gameObject.SetActive(true);
@@ -93,7 +103,28 @@ namespace ClothesStore {
                 titleTxt.text = sellTitle;
                 buyBtn.gameObject.SetActive(false);
                 sellBtn.gameObject.SetActive(true);
+
+                GroupInventory();
             }
+
+            categoryBtns[0].IsSelected = true;
+            OnCategorySelected(categoryBtns[0].BodyPart);
+        }
+
+        private void GroupInventory() {
+            inventoryGroupedByType.Clear();
+            GameManager.Instance.Player.Inventory.Slots.ForEach(slot => {
+                if(slot.Item is Clothes clothes) {
+                    List<Clothes> clothesOfType;
+                    if(inventoryGroupedByType.ContainsKey(clothes.Type)) {
+                        clothesOfType = inventoryGroupedByType[clothes.Type];
+                    } else {
+                        clothesOfType = new List<Clothes>();
+                        inventoryGroupedByType.Add(clothes.Type, clothesOfType);
+                    }
+                    clothesOfType.Add(clothes);
+                }
+            }); 
         }
 
         private void OnCategorySelected(BodyPart bodyPart) {
@@ -101,7 +132,9 @@ namespace ClothesStore {
             int i = 0;
             ClothesListItem item;
 
-            foreach(ClothesType type in clothesGroupedByType.Keys) {
+            Dictionary<ClothesType, List<Clothes>> source = buy ? stockGroupedByType : inventoryGroupedByType;
+
+            foreach(ClothesType type in source.Keys) {
                 if(type.BodyPart == bodyPart) {
                     if(i < listParent.childCount) {
                         item = listParent.GetChild(i).GetComponent<ClothesListItem>();
@@ -112,7 +145,7 @@ namespace ClothesStore {
                         item.Group = itemsTglGrp;
                     }
                     i++;
-                    item.SetClothes(buy, clothesGroupedByType[type], equipPreviewPnl.GetClothesBeingPreviewed(type));
+                    item.SetClothes(buy, source[type], equipPreviewPnl.GetClothesBeingPreviewed(type));
                 }   
             }
 
@@ -126,7 +159,7 @@ namespace ClothesStore {
             if(selection == null) {
                 totalPrice = equipPreviewPnl.Clear(selectedCategory);
             } else {
-                totalPrice = equipPreviewPnl.Try(selection);
+                totalPrice = equipPreviewPnl.Preview(selection);
             }
             if(!buy) {
                 totalPrice /= 2;
@@ -148,8 +181,15 @@ namespace ClothesStore {
         }
 
         public void OnSellBtnClick() {
+            MessagePanel.Instance.Show(saleswomanIcn, $"Are you sure you want to sell?{System.Environment.NewLine}I can give you {totalPriceTxt.text}", "Ok", "Cancel", OnSellConfirmed, null);
+        }
+
+        private void OnSellConfirmed() {
             GameManager.Instance.OnClothesSold(equipPreviewPnl.ClothesBeingPreviewed);    
             ClearSelection();
+            GroupInventory();
+            CategoryToggle selected = categoryBtns.Find(categoryBtn => categoryBtn.IsSelected);
+            OnCategorySelected(selected.BodyPart);
         }
 
         private void ClearSelection() {

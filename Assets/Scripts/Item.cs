@@ -5,8 +5,8 @@ namespace ClothesStore {
     public class Item : ScriptableObject {
 
         [SerializeField]
-        private Sprite sprite;
-        public Sprite Sprite => sprite;
+        private Sprite icon;
+        public Sprite Icon => icon;
 
         [SerializeField]
         private int price;
@@ -17,7 +17,7 @@ namespace ClothesStore {
         private bool equipped;
         public bool Equipped {
             get => equipped;
-            set => equipped = false;
+            set => equipped = value;
         }
 
     }

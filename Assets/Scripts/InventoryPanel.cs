@@ -32,6 +32,7 @@ namespace ClothesStore {
                     item = Instantiate<InventoryPanelListItem>(listItemPrefab, listParent);
                 }
                 item.Set(this, slot);
+                i++;
             });
 
             while(i < listParent.childCount) {
@@ -50,6 +51,7 @@ namespace ClothesStore {
                         }
                     }
                 }
+                equipPreviewPnl.Preview(itemAsClothes);
                 GameManager.Instance.Player.Equip(itemAsClothes);
             }
         }

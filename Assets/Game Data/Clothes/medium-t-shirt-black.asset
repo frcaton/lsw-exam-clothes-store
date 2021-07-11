@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
   m_Name: medium-t-shirt-black
   m_EditorClassIdentifier: 
+  icon: {fileID: -2542334083031471006, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
   price: 70
   type: {fileID: 11400000, guid: 75c7887779687e0dab89da000a5dd6dd, type: 2}
   color: 5

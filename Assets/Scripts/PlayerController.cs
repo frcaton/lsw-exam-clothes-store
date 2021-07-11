@@ -41,6 +41,7 @@ namespace ClothesStore {
         private void Awake() {
             animator = GetComponent<Animator>();
             CurrentCell = GameManager.Instance.World.WorldToCell(transform.position);
+            inventory.Owner = this;
         }   
 
         private void Update() {

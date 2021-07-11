@@ -13,7 +13,10 @@ namespace ClothesStore {
         private Toggle tgl;
         public bool IsSelected {
             get => tgl.isOn;
-            set => tgl.isOn = value;
+            set {                
+                tgl.isOn = value;
+                OnToggleValueChanged(value);
+            } 
         } 
 
         private UnityAction<BodyPart> onSelected;

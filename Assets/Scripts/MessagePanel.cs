@@ -51,7 +51,7 @@ namespace ClothesStore {
 
         public void OnOption2BtnClick() {
             Close();
-            option1Action?.Invoke();
+            option2Action?.Invoke();
         }
 
         public void Close() {

@@ -20,7 +20,10 @@ namespace ClothesStore {
         [SerializeField]
         protected Toggle selectionTgl;
         public bool IsSelected {
-            set => selectionTgl.isOn = value;
+            set {
+                selectionTgl.isOn = value;
+                OnSelectionTglValueChanged(value);
+            }
         }
 
         protected virtual void Awake() {

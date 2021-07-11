@@ -43,6 +43,9 @@ namespace ClothesStore {
             if(selectionTgl.isOn == (clothesBeingTriedOfThisType == null)) {                
                 isChangingClothesMutex = true;
                 selectionTgl.isOn = clothesBeingTriedOfThisType != null;
+            } 
+            if(clothesBeingTriedOfThisType != null) {
+                selectedColorIndex = clothes.IndexOf(clothesBeingTriedOfThisType);
             }
             colorDrpDwn.ClearOptions();
 
@@ -51,14 +54,15 @@ namespace ClothesStore {
 
             colorDrpDwn.AddOptions(options);
             colorDrpDwn.value = selectedColorIndex;
+            OnColorSelectionChanged(selectedColorIndex);
 
-            nameTxt.text = clothes[0].Type.name;
+            nameTxt.text = clothes[0].Type.name;            
 
             isChangingClothesMutex = false;
         }
 
         private void OnColorSelectionChanged(int index) {
-            icon.sprite = clothes[index].Sprite;
+            icon.sprite = clothes[index].Icon;
             int price = clothes[index].Price;
             if(!buy) {
                 price /= 2;

@@ -17,7 +17,7 @@ namespace ClothesStore {
         /// Show the clothes in the preview
         /// </summary>
         /// <returns>the total price of all clothes being previewed</returns>
-        public int Try(Clothes clothes) {
+        public int Preview(Clothes clothes) {
             EquipPreviewImage equipPreviewImg = previewImgs.Find(img => img.BodyPart == clothes.Type.BodyPart);
             equipPreviewImg.PreviewImg.sprite = clothes.Sprite;
             equipPreviewImg.gameObject.SetActive(true);

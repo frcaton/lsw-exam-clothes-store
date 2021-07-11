@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
-  m_Name: vintage-shirt-pruple
+  m_Name: t-shirt-brown-purple
   m_EditorClassIdentifier: 
-  price: 120
-  type: {fileID: 11400000, guid: e00f0eacffd7798718a3e5f28ecd988b, type: 2}
+  icon: {fileID: -6092953325292582070, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  price: 100
+  type: {fileID: 11400000, guid: 980e99343cf534818858d8315ef549f7, type: 2}
   color: 2
-  sprite: {fileID: -4060318028669273776, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
+  sprite: {fileID: -6092953325292582070, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}

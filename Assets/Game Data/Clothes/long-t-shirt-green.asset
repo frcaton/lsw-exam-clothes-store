@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
   m_Name: long-t-shirt-green
   m_EditorClassIdentifier: 
+  icon: {fileID: -3296693499264004087, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
   price: 80
   type: {fileID: 11400000, guid: 4d11002fba5cde765bb511f469f1ecbf, type: 2}
   color: 3

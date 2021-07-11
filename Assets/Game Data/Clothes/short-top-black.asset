@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3ed86adb5a90dab96f0ee6404a1ac3, type: 3}
   m_Name: short-top-black
   m_EditorClassIdentifier: 
+  icon: {fileID: 1188208026533624794, guid: dd307f6a224705f8eadc6a3dc59a3633, type: 3}
   price: 40
   type: {fileID: 11400000, guid: 7921838a99395d9c7869375d1e99f42e, type: 2}
   color: 5
