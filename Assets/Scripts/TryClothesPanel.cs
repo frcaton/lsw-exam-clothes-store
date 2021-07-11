@@ -25,7 +25,7 @@ namespace ClothesStore {
                 if(clothesBeingTried[i].Type.BodyPart == clothes.Type.BodyPart) {
                     clothesBeingTried.RemoveAt(i--);
                 } else {
-                    totalPrice += clothes.Price;
+                    totalPrice += clothesBeingTried[i].Price;
                 }
             }
             clothesBeingTried.Add(clothes);
@@ -45,11 +45,34 @@ namespace ClothesStore {
                 if(clothesBeingTried[i] == clothes) {
                     clothesBeingTried.RemoveAt(i--);
                 } else {
-                    totalPrice += clothes.Price;
+                    totalPrice += clothesBeingTried[i].Price;
                 }
             }
 
             return totalPrice; 
+        }
+        
+        /// <summary>
+        /// Removes the clothes for a body part in the preview
+        /// </summary>
+        /// <returns>the total price of all clothes being tried</returns>
+        public int Clear(BodyPart bodyPart) {
+            tryImgs.Find(img => img.BodyPart == bodyPart).TryImg.sprite = null;
+
+            int totalPrice = 0;
+            for (int i = 0; i < clothesBeingTried.Count; i++) {
+                if(clothesBeingTried[i].BodyPart == bodyPart) {
+                    clothesBeingTried.RemoveAt(i--);
+                } else {
+                    totalPrice += clothesBeingTried[i].Price;
+                }
+            }
+
+            return totalPrice; 
+        }
+
+        public Clothes GetClothesBeingTried(ClothesType type) {
+            return clothesBeingTried.Find(clothes => clothes.Type == type);
         }
 
     }
