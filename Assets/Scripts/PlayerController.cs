@@ -44,6 +44,10 @@ namespace ClothesStore {
         }   
 
         private void Update() {
+            if(GameManager.Instance.IsPaused) {
+                return;
+            }
+
             if(isMoving) {            
                 transform.Translate((movingToCell - transform.position) * speed);
                 if(transform.position == movingToCell) {
@@ -91,6 +95,11 @@ namespace ClothesStore {
         public void Equip(Clothes clothes) {
             ClothesRenderer renderer = clothesRenderers.Find(renderer => renderer.BodyPart == clothes.BodyPart);
             renderer.EquippedClothes = clothes;
+        }
+
+        public void ClearEquipment(BodyPart bodyPart) {
+            ClothesRenderer renderer = clothesRenderers.Find(renderer => renderer.BodyPart == bodyPart);
+            renderer.EquippedClothes = null;
         }
 
     }

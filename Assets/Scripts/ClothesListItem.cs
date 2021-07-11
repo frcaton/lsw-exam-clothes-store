@@ -6,21 +6,11 @@ using UnityEngine.UI;
 
 namespace ClothesStore {
     
-    public class ClothesListItem : MonoBehaviour {
-
-        [SerializeField]
-        private Image icon;
-        
-        [SerializeField]
-        private Text nameTxt;
+    public class ClothesListItem : ListItem {
         
         [SerializeField]
         private Dropdown colorDrpDwn;
-        
-        [SerializeField]
-        private Text priceTxt;
 
-        private Toggle selectionTgl;
         public ToggleGroup Group {
             set => selectionTgl.group = value;
         }
@@ -34,23 +24,26 @@ namespace ClothesStore {
 
         private List<Clothes> clothes;
 
-        private void Awake() {
-            selectionTgl = GetComponent<Toggle>();
-            selectionTgl.isOn = false;
-            selectionTgl.onValueChanged.AddListener(isOn => FireOnClothesSelectionChangedEvent());
+        private bool buy;
+
+        protected override void Awake() {
+            base.Awake();
             colorDrpDwn.onValueChanged.AddListener(value => OnColorSelectionChanged(value)); 
         }
 
-        public void SetClothes(List<Clothes> clothes, Clothes clothesBeingTriedOfThisType) {
-            this.clothes = clothes;
+        protected override void OnSelectionTglValueChanged(bool isOn) {
+            FireOnClothesSelectionChangedEvent();
+        }
+
+        public void SetClothes(bool buy, List<Clothes> clothes, Clothes clothesBeingTriedOfThisType) {
+            this.buy = buy;
+            this.clothes = clothes;           
 
             int selectedColorIndex = 0;
             if(selectionTgl.isOn == (clothesBeingTriedOfThisType == null)) {                
                 isChangingClothesMutex = true;
                 selectionTgl.isOn = clothesBeingTriedOfThisType != null;
-
             }
-
             colorDrpDwn.ClearOptions();
 
             List<Dropdown.OptionData> options = new List<Dropdown.OptionData>(clothes.Count);
@@ -66,7 +59,11 @@ namespace ClothesStore {
 
         private void OnColorSelectionChanged(int index) {
             icon.sprite = clothes[index].Sprite;
-            priceTxt.text = clothes[index].Price.ToString("$ #");
+            int price = clothes[index].Price;
+            if(!buy) {
+                price /= 2;
+            }
+            amountTxt.text = price.ToString("$ #");
             if(selectionTgl.isOn) {
                 FireOnClothesSelectionChangedEvent();                
             }

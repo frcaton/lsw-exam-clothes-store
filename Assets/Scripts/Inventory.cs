@@ -10,6 +10,7 @@ namespace ClothesStore {
 
         [SerializeField]
         private List<InventorySlot> slots;
+        public List<InventorySlot> Slots => slots;
 
         public InventorySlot GetSlot(Item item) {
             return slots.Find(slot => slot.Item == item);

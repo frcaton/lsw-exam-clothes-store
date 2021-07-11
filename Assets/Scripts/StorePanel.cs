@@ -8,6 +8,9 @@ namespace ClothesStore {
     public class StorePanel : MonoBehaviour {
 
         [SerializeField]
+        private Sprite saleswomanIcn;
+
+        [SerializeField]
         private Text titleTxt;
 
         [SerializeField]
@@ -23,7 +26,7 @@ namespace ClothesStore {
         private ToggleGroup itemsTglGrp;
 
         [SerializeField]
-        private TryClothesPanel tryPnl;
+        private EquipPreviewPanel equipPreviewPnl;
 
         [SerializeField]
         private Text totalPriceTxt;
@@ -47,6 +50,16 @@ namespace ClothesStore {
 
         private BodyPart selectedCategory;
 
+        private bool buy;
+
+        public int TotalPrice {
+            get {
+                int price = 0;
+                equipPreviewPnl.ClothesBeingPreviewed.ForEach(clothes => price += clothes.Price);
+                return buy ? price : price / 2;
+            }
+        }
+
         private void Awake() {
             categoryBtns.ForEach(categoryBtn => {
                 categoryBtn.OnSelected = OnCategorySelected;
@@ -68,7 +81,10 @@ namespace ClothesStore {
         }
 
         public void Show(bool buy) {
+            this.buy = buy;
             gameObject.SetActive(true);
+            ClearSelection();
+            categoryBtns[0].IsSelected = true;
             if(buy) {
                 titleTxt.text = buyTitle;
                 buyBtn.gameObject.SetActive(true);
@@ -96,7 +112,7 @@ namespace ClothesStore {
                         item.Group = itemsTglGrp;
                     }
                     i++;
-                    item.SetClothes(clothesGroupedByType[type], tryPnl.GetClothesBeingTried(type));
+                    item.SetClothes(buy, clothesGroupedByType[type], equipPreviewPnl.GetClothesBeingPreviewed(type));
                 }   
             }
 
@@ -108,23 +124,45 @@ namespace ClothesStore {
         private void OnClothesSelectionChanged(Clothes selection) {
             int totalPrice;
             if(selection == null) {
-                totalPrice = tryPnl.Clear(selectedCategory);
+                totalPrice = equipPreviewPnl.Clear(selectedCategory);
             } else {
-                totalPrice = tryPnl.Try(selection);
+                totalPrice = equipPreviewPnl.Try(selection);
+            }
+            if(!buy) {
+                totalPrice /= 2;
             }
             totalPriceTxt.text = totalPrice.ToString("$ #");
         }
 
         public void OnBuyBtnClick() {
+            if(GameManager.Instance.Money < TotalPrice) {
+                MessagePanel.Instance.Show(saleswomanIcn, "I'm sorry you don't have enough money", "Ok", null);
+            } else {
+                MessagePanel.Instance.Show(saleswomanIcn, $"Are you sure you want to buy?{System.Environment.NewLine}It will cost you {totalPriceTxt.text}", "Ok", "Cancel", OnBuyConfirmed, null);
+            }
+        }
 
+        private void OnBuyConfirmed() {
+            GameManager.Instance.OnClothesBought(equipPreviewPnl.ClothesBeingPreviewed);    
+            ClearSelection();        
         }
 
         public void OnSellBtnClick() {
+            GameManager.Instance.OnClothesSold(equipPreviewPnl.ClothesBeingPreviewed);    
+            ClearSelection();
+        }
 
+        private void ClearSelection() {
+            for (int i = 0; i < listParent.childCount; i++) {
+                listParent.GetChild(i).GetComponent<ClothesListItem>().IsSelected = false;
+            }
+            equipPreviewPnl.Clear();
+            totalPriceTxt.text = "$ 0";
         }
 
         public void OnCloseBtnClick() {
             gameObject.SetActive(false);
+            GameManager.Instance.IsPaused = false;
         }
 
     }

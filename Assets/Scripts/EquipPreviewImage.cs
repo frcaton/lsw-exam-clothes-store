@@ -3,11 +3,11 @@ using UnityEngine.UI;
 
 namespace ClothesStore {
     
-    public class TryClothesImage : MonoBehaviour {
+    public class EquipPreviewImage : MonoBehaviour {
 
         [SerializeField]
-        private Image tryImg;
-        public Image TryImg => tryImg;
+        private Image previewImg;
+        public Image PreviewImg => previewImg;
 
         [SerializeField]
         private BodyPart bodyPart;

@@ -246,8 +246,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 6393954365383289261}
   nameTxt: {fileID: 1368508276047769915}
+  amountTxt: {fileID: 5112403492026147014}
+  selectionTgl: {fileID: 598844572431024911}
   colorDrpDwn: {fileID: 7461477705498085153}
-  priceTxt: {fileID: 5112403492026147014}
 --- !u!114 &598844572431024911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,7 +1385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5080105340290672079

@@ -14,10 +14,8 @@ namespace ClothesStore {
         [SerializeField]
         private ClothesColor color;
         public ClothesColor Color => color;
-
-        [SerializeField]
-        private Sprite sprite;
-        public Sprite Sprite => sprite;
+        
+        public override string Name => base.Name + " (" + color.ToString() + ")";
 
     }
 
