@@ -7,6 +7,12 @@ namespace ClothesStore {
 
     public class PlayerController : MonoBehaviour {
 
+        #if UNITY_WEBGL
+        private const float reachedNextCellThreshold = 0.01f;
+        #else
+        private const float reachedNextCellThreshold = 0.01f;
+        #endif
+
         [SerializeField]
         private float speed = 0.1f;
 
@@ -50,8 +56,9 @@ namespace ClothesStore {
             }
 
             if(isMoving) {            
-                transform.Translate((movingToCell - transform.position) * speed);
-                if(transform.position == movingToCell) {
+                transform.Translate((movingToCell - transform.position) * speed);                
+                if((transform.position - movingToCell).sqrMagnitude < reachedNextCellThreshold) {
+                    transform.position = movingToCell;
                     isMoving = false;
                     currentCell = GameManager.Instance.World.WorldToCell(movingToCell);
                     CheckForMovementInput();

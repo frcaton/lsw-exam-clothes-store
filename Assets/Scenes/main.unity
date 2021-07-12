@@ -17825,7 +17825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 471a221e208c006d8b8c831154068b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  speed: 0.2
   clothesRenderers:
   - {fileID: 449046507}
   - {fileID: 1518884194}
